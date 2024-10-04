@@ -34,7 +34,7 @@ const WelcomeModal: React.FC<WelcomeModalProps> = ({
 				onClick={handleClose}></div>
 
 			{/* Modal container */}
-			<div className='relative bg-LegendsYellow w-[90vw]  sm:w-[70vw] max-w-[1487px] h-[90vh] sm:h-[60vh] max-h-[750px] flex flex-col'>
+			<div className='relative bg-LegendsYellow w-[90vw]  sm:w-[70vw] max-w-[1487px] h-[90vh] sm:h-[60vh] max-h-[700px] flex flex-col'>
 				{/* Top row: Close button */}
 				<div className='flex justify-end px-5 pt-4'>
 					<button
