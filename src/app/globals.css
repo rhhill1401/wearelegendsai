@@ -2,6 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+	font-family: 'Georgia';
+	src: url('/Georgia/georgia.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/Montserrat/static/Montserrat-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat-Bold';
+	src: url('/Montserrat/static/Montserrat-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+.font-montserrat-bold {
+	font-family: 'Montserrat-Bold', sans-serif;
+	font-weight: bold;
+}
 :root {
 	--foreground-rgb: 0, 0, 0;
 	--background-start-rgb: 214, 219, 220;
@@ -17,7 +41,7 @@
 }
 
 body {
-	background-color: theme('colors.LegendsSkyBlue');
+	background-color: theme('colors.LegendsLightGrey');
 }
 
 @layer utilities {
