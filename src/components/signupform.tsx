@@ -266,10 +266,7 @@ const SignupForm: React.FC<SignupFormProps> = ({showFormDirectly = false}) => {
 											</span>
 											{`After you secure your spot, we'll follow
 										up with next steps to join the
-										challenge! This helps reassure users
-										that their registration has been
-										captured and that they'll get more
-										detailed information shortly.`}
+										challenge!`}
 										</p>
 									</form>
 								</div>

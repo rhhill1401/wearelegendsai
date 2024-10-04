@@ -19,7 +19,7 @@ const MentorshipSection: React.FC = () => {
 				</div>
 				{/* Text content section */}
 				<div className='lg:w-3/5  sm:bg-white text-white sm:text-black  px-2  text-center sm:text-start  sm:py-28 sm:px-12 lg:px-20 sm:z-10 sm:shadow-lg lg:-ml-[150px] lg:-mt-[150px] sm:relative order-1 sm:order-2'>
-					<h2 className='lg-desktop:text-[40px]   font-georgia  text-4xl  leading-tight  mb-20 sm:mb-0'>
+					<h2 className='lg-desktop:text-[40px]   font-georgia pt-20   text-4xl  leading-tight  mb-20 sm:mb-0'>
 						We are creating{' '}
 						<span className='font-bold'>millionaires</span> through{' '}
 						<span className='relative inline-block'>
